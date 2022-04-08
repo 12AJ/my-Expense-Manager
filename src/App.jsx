@@ -27,8 +27,8 @@ function getUserName(userNameData){
                     <Navbar />
                     <Routes>
                         <Route  path="/my-Expense-Manager" element={<Home />} />
-                        <Route  path="/my-Expense-Manager/About" element={<About />} />
-                        <Route  path="/my-Expense-Manager/Contact" element={<Contact />} />
+                        <Route  path="/About" element={<About />} />
+                        <Route  path="/Contact" element={<Contact />} />
                     </Routes>
                     <div style={{ display: logComponentDisplay ? "inline-block" : "none" }}><LoginComponent getUserName={getUserName} /> </div>
                 </BrowserRouter>
