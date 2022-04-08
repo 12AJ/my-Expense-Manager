@@ -24,9 +24,9 @@ function Navbar() {
             <img src={navbarImg} alt="navbar List" onClick={() => setnavFun(!navFun)} className="navbarImg" id={navFun? "navbarImg":""} />
 
             <ul className="navOptions" id={navFun? "navOptionDropdown":""} >
-                <li><NavLink  to="/" activeclassname="active">{security? userName:"Home"}</NavLink></li>
-                <li><NavLink  to="/About" activeclassname="active">About</NavLink></li>
-                <li><NavLink  to="/Contact" activeclassname="active">Contact</NavLink></li>
+                <li><NavLink  to="/my-Expense-Manager/" activeclassname="active">{security? userName:"Home"}</NavLink></li>
+                <li><NavLink  to="/my-Expense-Manager/About" activeclassname="active">About</NavLink></li>
+                <li><NavLink  to="/my-Expense-Manager/Contact" activeclassname="active">Contact</NavLink></li>
                
                    {
                     security ? <li className="log" onClick={logDisplay}>Log out</li>
