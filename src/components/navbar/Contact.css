@@ -1,0 +1,55 @@
+.contact{
+    width: 92vw;
+    margin: auto;
+}
+
+.heading{
+    font-size: 40px;
+    font-weight: lighter;
+    margin: 0px 0 30px 0px;
+    border-bottom: 3px solid rgba(141,104,245,1);
+    padding-bottom: 20px;padding-top: 30px;
+}
+.mergeContact{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.miniContacts{
+    height: 120px;
+    width: 220px;
+    background-color: rgb(240,194,254);
+    margin: 40px;
+    position: relative;
+    text-align: center;
+    padding: 50px;
+    line-height: 30px;
+}
+.miniContacts img{
+    width: 60px;
+    position: absolute;
+    right:42%;
+    top: -30px;
+}
+.contactBtns{
+    margin: 13px;
+    padding: 5px 10px;
+    background-color: blueviolet;
+    color: aliceblue;
+    border: none;
+    letter-spacing: 2px;
+}
+.contactBtns:hover{
+    background-color: rgb(175, 101, 244);
+}
+
+
+@media (max-width : 750px){
+
+    .mergeContact{
+        grid-template-columns: auto;
+    }
+
+}

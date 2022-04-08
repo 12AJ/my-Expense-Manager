@@ -1,0 +1,93 @@
+.Content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 5px;
+    height: 70px;
+    background: rgb(75, 73, 73);
+    margin: 20px auto 0px auto;
+    border-radius: 6px;
+    z-index: 4;
+}
+.date{
+    background-color: rgb(44, 42, 42);
+    text-align: center;
+    padding: 5px;
+    width: 70px;
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    line-height: 22px;
+}
+
+.Content p{
+    color: white;
+}
+.items{
+    font-size: large;
+    flex: 0.9;
+    overflow-wrap:anywhere;
+}
+.price{
+    padding: 5px 15px;
+    background-color: rgb(107, 12, 107);
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-right: 2%;
+    overflow-wrap: anywhere;
+}
+#dateNumber{
+    font-weight: bold;
+    font-size: x-large;
+    margin: 1.6px auto ;
+}
+
+.yearText{
+    color: white;
+  }
+  .yearlist{
+    float: right;
+  }
+  .yearlist select{
+    text-align: center;
+    margin: 0px 5px;
+  }
+
+  @media (max-width : 660px){
+      .filterDiv{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-between;
+          height: 50px;
+      }
+      .Content{
+          height: auto;
+          font-size: small;
+          
+      }
+      .Content p{
+          font-size: 14px;
+      }
+      .date{
+        padding: 3px;
+        width: 64.5px;
+        margin: 5px;
+        line-height: 19px;
+        font-size: x-small;
+      }
+      #dateNumber{
+        font-size:medium;
+        margin: 0.99px auto ;
+    }
+    .price{
+        padding: 5px 10px;
+        width: 45px;
+    }
+    .yearlist select{
+        font-size: 70%;
+        width: 17vw;
+        height: 20px;
+    }
+  }

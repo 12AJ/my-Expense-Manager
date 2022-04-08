@@ -1,0 +1,31 @@
+.formContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.inputs p{
+    font-size: large;
+    font-weight: bolder;
+    margin: 5px 0px;
+}
+.inputs input{
+    width: 14vw;
+    height: 22px;
+    font-size: medium;
+    text-align: center;
+}
+.submitbtn{
+    color: white;
+    background-color: rgb(107, 12, 107);
+    margin: 8px 10px 0px 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+@media (max-width : 660px){
+    .formContainer{
+        flex-direction: column;
+    }
+    .inputs input{
+        width: 42vw;
+    }
+}

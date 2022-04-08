@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+
+.container{
+    width: 70vw;
+    margin: auto;
+    background: rgb(43, 40, 40);
+    padding: 10px;
+    overflow-x: hidden;
+}
+
+
+.main{
+  background-color: black;
+  padding: 15px;
+  width: 87%;
+  margin: 15px auto;
+  border-radius: 6px;
+}
+.nodataf{
+  text-align: center;
+  color: white;
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 3px;
+}
+@media (max-width : 660px){
+  .container{
+    margin: 0px auto;
+    width: 95vw;
+  }
+}
+

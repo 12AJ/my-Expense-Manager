@@ -1,0 +1,79 @@
+
+.login{
+    position: relative;
+    background-color: #2B2828;
+    height: 420px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 30px;
+    border-radius: 20px;
+    letter-spacing: 2px;
+}
+.login h2{
+    color:aliceblue;
+    text-align: center;
+    font-weight: 100;
+    font-size: xx-large;
+    margin: 30px;
+}
+.login label{
+    color: rgb(233,188,253);
+    font-size: larger;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.login input{
+    color: white;
+    background-color: black ;
+    border: none;
+    width: 80%;
+   padding: 6px;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.login button{
+    display: inline-block;
+    margin: 36px auto;
+    font-size: 16px;
+    padding: 5px 20px;
+    letter-spacing: 1px;
+    background-color:  rgb(113, 62, 255);
+    color:white;
+    border: none;
+    border-radius: 10px;
+}
+.login button:hover{
+    background-color: rgb(117,17,255);
+}
+#signupbtn{
+    margin-top: 5px;
+}
+.invalid{
+    position: absolute;
+    font-size: 15px;
+    color: red;
+    text-align: center;
+    bottom: 83px;
+    left: 30%;
+}
+#close{
+    position: absolute;
+    color: rgb(72, 7, 250);
+    right: 15px;
+    top: 10px;
+}
+#close img{
+    width: 40px; 
+    
+}
+#close img:hover{
+    filter: hue-rotate(351deg) saturate(800%);
+}
+@media (max-width : 450px) {
+    .login{
+        width: 70vw;
+        margin: auto 1vw;
+    }
+}

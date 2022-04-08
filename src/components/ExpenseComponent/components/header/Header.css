@@ -1,0 +1,25 @@
+.header{
+    background: rgb(141, 104, 245);
+    width: 87%;
+    margin: 15px auto;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+}
+#addbtn{
+    color: white;
+    background-color: rgb(107, 12, 107);
+    margin: 0px auto;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.closebtn{
+    color: white;
+    background-color: rgb(107, 12, 107);
+    margin-top: 6px;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+
+

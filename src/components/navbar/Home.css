@@ -1,0 +1,101 @@
+.mainHome{
+    overflow-x: hidden;
+}
+.polygon{
+    -webkit-clip-path:polygon(100% 0px, 100% 48.19%, 67.22% 47.83%, 0px 4.66%, 0px 0px);
+    clip-path: polygon(100% 0px, 100% 48.19%, 67.22% 47.83%, 0px 4.66%, 0px 0px);
+    position: absolute;
+    z-index: -1;
+    top: 116px;
+    height: 101vh;
+    width:100%;
+    background-color: rgb(140, 102, 245);
+}
+.mainHeading{
+    margin: -1px;
+    padding: 30px 10px 40px 30px;
+    
+}
+.mainHeading h1{
+    text-align: center;
+    font-weight: 100;
+    font-size:70px;
+    color: #f3dafc;
+}
+
+.home1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:  auto;
+    padding: 30px;
+}
+.home2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px auto;
+    padding: 60px 30px ;
+    flex-direction: row-reverse;
+}
+.homeText{
+    width: 40vw;
+    margin: auto;
+    line-height: 35px;
+    word-spacing: 6px;
+}
+.homeText h2{
+    margin: 20px auto;
+}
+
+.home1 img,.home2 img{
+    height: 25vw;
+}
+.home2 img{
+    margin-top: 50px;
+}
+.getStarted{
+    margin: 30px auto 50px auto;
+    width: 70vw;
+    cursor: pointer;
+}
+.getStarted h2{
+    border: 2px solid rgb(140, 102, 245);
+    color: rgb(140, 102, 245);
+    padding: 10px 20px;
+    text-align: center;
+    transition: 0.2s ease-in 0s;
+}
+.getStarted h2:hover{
+    background-color: rgb(140, 102, 245);
+    color: white;
+    transition: 0.2s ease-in 0s;
+}
+
+
+@media (max-width : 900px){
+    .polygon{
+        display: none;
+    }
+    .mainHeading{
+        background: rgb(140, 102, 245);
+    }
+    .home1,.home2{
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 30px 0px;
+    }
+    .homeText{
+        width: 90vw;
+    }
+    .home1 img,.home2 img{
+        margin: auto;
+        height: 55vw;
+    }
+}
+
+@media (max-width : 750px){
+    .polygon{
+        top: 80px;
+    }
+}
